@@ -97,3 +97,9 @@ section .content .btn {
 section .content .btn:hover {
   letter-spacing: 0.4em;
 }
+
+section .container {
+  position: relative;
+  width: 400px;
+  height: 400px;
+}
