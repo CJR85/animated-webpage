@@ -39,9 +39,14 @@ header ul li {
 }
 
 header ul li a {
-  text-transform: none;
+  text-decoration: none;
   color: #999;
   text-transform: uppercase;
   letter-spacing: 0.2em;
   transition: 0.5s;
+}
+
+header ul li a:hover,
+header ul li.active {
+  color: #fff;
 }
