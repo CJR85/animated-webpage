@@ -50,3 +50,22 @@ header ul li a:hover,
 header ul li.active {
   color: #fff;
 }
+
+section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 100vh;
+  padding: 100px;
+  gap: 100px;
+}
+
+section .content {
+  max-width: 700px;
+}
+
+section .content h2 {
+  font-size: 3.5em;
+  color: #fff;
+  font-weight: 500;
+}
