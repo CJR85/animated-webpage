@@ -100,11 +100,14 @@ section .content .btn:hover {
 
 section .container {
   position: relative;
+  right: 100px;
+  min-width: 400px;
   width: 400px;
   height: 400px;
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-wrap: wrap;
 }
 
 section .container .element {
@@ -112,4 +115,5 @@ section .container .element {
   width: 40px;
   height: 40px;
   background: #fff;
+  scale: 0.75;
 }
