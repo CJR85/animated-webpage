@@ -76,3 +76,24 @@ section .content h2 b {
   color: #0f0;
   font-family: 'Noto Serif Telugu', serif;
 }
+
+section .content p {
+  color: #999;
+}
+
+section .content .btn {
+  padding: 10px 15px;
+  background: #fff;
+  color: #222;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: 500;
+  display: inline-block;
+  margin-top: 25px;
+  letter-spacing: 0.2em;
+  transition: 0.5s ease-in-out;
+}
+
+section .content .btn:hover {
+  letter-spacing: 0.4em;
+}
