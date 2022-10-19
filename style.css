@@ -71,3 +71,8 @@ section .content h2 {
   font-weight: 500;
   font-family: 'Noto Serif Telugu', serif;
 }
+
+section .content h2 b {
+  color: #0f0;
+  font-family: 'Noto Serif Telugu', serif;
+}
